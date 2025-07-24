@@ -28,6 +28,8 @@ or do it manually:
 
 run in the root directory of YTDLPFrontend:
 
+mkdir build
+
 cd build
 
 qmake6 ../YTDLPFrontend.pro
