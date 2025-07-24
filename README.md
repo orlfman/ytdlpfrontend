@@ -19,7 +19,9 @@ make sure you have all the "optional" dependencies for yt-dlp installed.
 uses qmake6 and make to build.
 
 use the included build.sh file:
+
 chmod +x build.sh
+
 ./build.sh
 
 or do it manually:
