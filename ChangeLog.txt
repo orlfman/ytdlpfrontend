@@ -1,0 +1,105 @@
+v0.00
+rust and gtk4
+inital release
+just a url input bar and a download button
+v0.01
+added a general tab with basic options like filename formatting
+v0.02
+switched from rust and gtk4 to c++ and qt
+rewrite
+v0.03
+basic structure developed.
+filename formatting tab
+general tab
+console tab
+v0.04
+added sponsorblock tab
+added authorization tab
+v0.05
+added list formats tab
+v0.06
+added file extension to filename formatting
+v0.07
+added allow overwrites
+v0.08
+added wait interval
+added wait for stream
+v0.09
+added browser impersonation (broken on arch thanks to the way its built)
+added aria2c
+v0.10
+added yt-dlp automatic cookie extraction to the authorization tab
+v0.11
+added list formats tab (again - rewritten)
+added more quick formats in the dropdown menu
+v0.12
+bug fixes
+v0.13
+bug fixes
+v0.14
+more code changes
+v0.15
+rewrote some more stuff
+v0.16
+added playlist tab
+v0.17
+rewrote playlist tab to support checkmarks to select indivual items instead of having to type in which videos you wanted
+v0.18
+added subtitles tab
+v0.19
+made subitiles tab like playlist tab, a checkmark list for languages
+v0.20
+rewrote the playlist tab
+renamed to Playlist / Channel
+made to be functional with a users channel videos / shorts / live
+v0.21 - v0.29
+we don't talk about those versions
+v.030
+seperated channel and playlist listing into their own tabs
+playlist tab only does, playlist stuff
+channel browser tab handles channel stuff.
+channel tab right now allows for listing videos, shorts, and live streams
+playlist and channel tab have filters for urls to try to make sure only valid playlist / channel urls are allowed. strange, unfortunate things can happen if they're not.
+v0.31
+added search functionality to channel browser
+v0.32
+fine tuned the wait sliders to allow up to 10 minutes.
+added more quick options for list forms
+v0.33
+added search functionality to playlist
+v0.34
+added output directory modifcations. can now change the formatting.
+also renamed the filename formatting tab to formatting
+v0.35
+added new thumbnail icon
+v0.36
+reworked download button to prevent rare double click, double download if you clicked fast enough
+progrss bar and status bar are async now
+v0.37
+added a very basic bookmark system for channels. creates a config folder in XDG config location (typically ~/.config) called ytdlpfrontend and a sql database file ytdlpf-bookmarks.db
+saves channel name and url
+bookmarks also are automatically alphabetically sorted for that fine organization
+v0.38
+redid the bookmarks to be a table list rather than a dropdown menu
+v0.39
+added the ability to store output directories for bookmarks
+v0.40
+added a new context menu (dropdown menu) in channel browser to let users select if they want to pull every single video the channel has for their selected content type, or limit the amount to 500, 100, 5, or 1 if they just want to pull the latest and greatest video the channel uploaded.
+v0.41
+added the ability for bookmarks to save output directory format, filename format, and subdirectory along with output directory location.
+v0.42
+went ahead and set embed chapters, embed json information, add metadata, embed thumbnail, sponsorblock, and block sponsors to enabled by default. i figure they are sane enough people will probably also have them enabled. of course, they can be turned off by the user.
+v0.43
+for the channel browser tab, made it that if you check mark a video, it will automatically enable "use selected items for download"
+v0.44
+tied channel browser video download to list: context menu. helps speed up downloads from channels that has enormous amount of videos if you limit the amount of videos to list. before, download didn't take list: context menu into consideration, so even if you limited the list, say to 100, download pulled down the ENTIRE list to search for the video url to download. now if you limit to, say, 100, download will only pull down 100 to find the url for the video id / title to download that was selected.
+v0.45
+added the ability to save list: context menu values to bookmarks. to help not forget to limit certain channels that have enormous amounts of videos.
+v0.46
+added the ability to list videos in the channel browser tab to show upload dates. but its ridiculously slow due to yt-dlp slow processing.
+v0.47
+added a nifty video list display that displays the amount of videos being listed
+v0.48
+that nifty video list display, showed a bug that i didn't know existed. sometimes, list triggers, twice. so if list was set to 50, it would trigger twice and display 100 videos... so its fixed now.
+v0.49
+added a new bookmark option to save video formatting options

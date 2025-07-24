@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=YTDLPFrontend
+Comment=A graphical frontend for yt-dlp
+Exec=/usr/local/bin/YTDLPFrontend
+Icon=/usr/share/icons/YTDLPFrontend.png
+Terminal=false
+Categories=Utility;
