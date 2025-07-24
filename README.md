@@ -1,6 +1,6 @@
 # ytdlpfrontend
 
-hi friends.
+hi friends. this is a qt6 frontend for yt-dlp.
 
 needs yt-dlp installed on your system. along with qt libraries and qmake6. never tested outside a kde enviroment on arch linux so your mileage may vary.
 
