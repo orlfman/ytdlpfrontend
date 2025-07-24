@@ -1,6 +1,6 @@
 hi friends.
 
-needs yt-dlp installed on your system. along with qt libraries and qmake6. never tested outside a kde enviroment so your mileage may vary.
+needs yt-dlp installed on your system. along with qt libraries and qmake6. never tested outside a kde enviroment on arch linux so your mileage may vary.
 
 make sure you have all the "optional" dependencies for yt-dlp installed.
 >aria2
