@@ -27,8 +27,11 @@ chmod +x build.sh
 or do it manually:
 
 run in the root directory of YTDLPFrontend:
+
 cd build
+
 qmake6 ../YTDLPFrontend.pro
+
 make
 
 and that's it. in the build directory of YTDLPFrontend folder should have the YTDLPFrontend binary
